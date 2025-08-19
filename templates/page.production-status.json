@@ -1,0 +1,338 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "content_width": "md"
+      }
+    },
+    "dynamic_grid_HFFEWC": {
+      "type": "dynamic-grid",
+      "blocks": {
+        "dynamic_grid_item_wRKhWX": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 2,
+            "desktop_column_start": 5,
+            "desktop_column_end": 15,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 4,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "dynamic_grid_heading_VAfJ9M": {
+              "type": "_dynamic-grid-heading",
+              "settings": {
+                "text": "<strong>Welcome</strong>. Here, you can follow the journey of your garment, from fabric weaving to final finishing. <strong>We believe in full transparency, so you’ll always know exactly where we are in the process</strong>.",
+                "show_text_vertically": false,
+                "font_size_desktop": 4,
+                "font_size_mobile": 7,
+                "font_size_line_height": 1,
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "none",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_VAfJ9M"
+          ]
+        },
+        "dynamic_grid_item_8rJt86": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 1,
+            "desktop_column_start": 15,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 1,
+            "mobile_column_start": 6,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_7J3bre": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify://shop_images/asib.making.of_-61.jpg",
+                "caption": "",
+                "max_width": 100,
+                "mobile_max_width": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_7J3bre"
+          ]
+        },
+        "dynamic_grid_item_nKAigx": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 3,
+            "desktop_column_start": 1,
+            "desktop_column_end": 3,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 12,
+            "mobile_column_start": 1,
+            "mobile_column_end": 3,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_PgXpbF": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify://shop_images/asib.making.of_-60.jpg",
+                "caption": "",
+                "max_width": 100,
+                "mobile_max_width": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_PgXpbF"
+          ]
+        }
+      },
+      "block_order": [
+        "dynamic_grid_item_wRKhWX",
+        "dynamic_grid_item_8rJt86",
+        "dynamic_grid_item_nKAigx"
+      ],
+      "name": "t:sections.dynamic_grid.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "allow_transparent_header": true,
+        "show_background_image_parallax": false,
+        "background_video": "shopify://files/videos/factory_making_bias.MOV",
+        "add_vertical_spacing": true,
+        "add_horizontal_spacing": true,
+        "gap": 16,
+        "mobile_gap": 10,
+        "overlay_color": "#000000",
+        "overlay_opacity": 20
+      }
+    },
+    "rich_text_yrbYYr": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_8ijRgU": {
+          "type": "heading",
+          "settings": {
+            "text": "Current Order Window",
+            "heading_tag": "h1",
+            "indent": "none",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext_zzd9Ym": {
+          "type": "richtext",
+          "settings": {
+            "text": "<h3><strong>August – September 2025<br/></strong><br/>🟢</h3><h6><a href=\"/collections/frontpage\" title=\"Fall / Winter\"><strong>Our next production batch is now open for orders</strong></a><strong>.</strong> Once the order window closes at the end of September, we will begin fabric allocation, cutting, and sewing.</h6><h6>Estimated shipping for this batch: <strong>November — December 2025</strong> via FedEx Priority worldwide, domestically via Sagawa Express.</h6>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8ijRgU",
+        "richtext_zzd9Ym"
+      ],
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "content_width": "md",
+        "text_alignment": "center"
+      }
+    },
+    "rich_text_MTmUUF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_PELNUH": {
+          "type": "heading",
+          "settings": {
+            "text": "Why We Work in Batches",
+            "heading_tag": "h2",
+            "indent": "none",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext_UMxRqj": {
+          "type": "richtext",
+          "settings": {
+            "text": "<h6>At <strong>a space, in between.</strong>, every garment is made to order in small, intentional batches.</h6><h6>This approach allows us to:</h6><h6><strong>Custom weave and dye fabrics</strong> in exact quantities.</h6><h6><strong>Ensure the highest quality finishing</strong> through small-batch production.</h6><h6><strong>Minimize</strong> waste and <strong>environmental impact</strong>.</h6><h6><strong>Offer you</strong> <strong>rare</strong>, <strong>seasonless</strong> <strong>designs</strong> that won’t be mass-produced</h6>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_PELNUH",
+        "richtext_UMxRqj"
+      ],
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "content_width": "md",
+        "text_alignment": "center"
+      }
+    },
+    "rich_text_Tp83Di": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_XYyKrT": {
+          "type": "heading",
+          "settings": {
+            "text": "Current Production Timeline",
+            "heading_tag": "h2",
+            "indent": "none",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext_C8Dzk6": {
+          "type": "richtext",
+          "settings": {
+            "text": "<h5><strong>August–September 2025</strong><br/>Order window open.<br/>Place your order early to secure your preferred color and size.</h5><h5><strong>October 2025</strong><br/>Fabric arrives from our weavers.</h5><h5><strong>October — November 2025</strong><br/>Cutting and sewing begin.</h5><h5><strong>November — December 2025</strong><br/>Final sewing, quality checks, and FedEx Priority shipping.</h5>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XYyKrT",
+        "richtext_C8Dzk6"
+      ],
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "content_width": "md",
+        "text_alignment": "center"
+      }
+    },
+    "rich_text_9Chqyh": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6jwdYm": {
+          "type": "heading",
+          "settings": {
+            "text": "Checking Your Order",
+            "heading_tag": "h2",
+            "indent": "none",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext_QNwJgy": {
+          "type": "richtext",
+          "settings": {
+            "text": "<h6>You can always reach out with questions about your order’s progress — <a href=\"/pages/contact\" title=\"Contact Us\"><strong>Contact Us</strong></a><strong>.</strong></h6>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6jwdYm",
+        "richtext_QNwJgy"
+      ],
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "content_width": "md",
+        "text_alignment": "center"
+      }
+    },
+    "rich_text_7fWnm7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_GzNXWd": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>Important Notes</strong>",
+            "heading_tag": "h2",
+            "indent": "none",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext_WLYHY7": {
+          "type": "richtext",
+          "settings": {
+            "text": "<h5><strong>No returns</strong> on made-to-order garments.</h5><h5>Please review our <a href=\"/pages/sizing\" title=\"Sizing\"><strong>Fit Chart</strong> </a>or book an <a href=\"/pages/contact\" title=\"Contact Us\"><strong>online measuring session</strong></a> before ordering.</h5><h5>Many designs are <strong>generously cut</strong> to drape with ease.</h5><h5><strong>Colors and fabrics are limited — </strong>once they’re gone, they may not return.</h5>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GzNXWd",
+        "richtext_WLYHY7"
+      ],
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "content_width": "md",
+        "text_alignment": "center"
+      }
+    },
+    "image_with_text_overlay_XQpcCV": {
+      "type": "image-with-text-overlay",
+      "name": "t:sections.image_with_text_overlay.name",
+      "settings": {
+        "color_scheme": "",
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "image": "shopify://shop_images/asib.making.of_-59.jpg",
+        "overlay_color": "#ffffff",
+        "overlay_opacity": 0,
+        "enable_sticky_content": false,
+        "content_width": "md",
+        "desktop_text_position": "sm:place-self-center",
+        "mobile_text_position": "place-self-center"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dynamic_grid_HFFEWC",
+    "rich_text_yrbYYr",
+    "rich_text_MTmUUF",
+    "rich_text_Tp83Di",
+    "rich_text_9Chqyh",
+    "rich_text_7fWnm7",
+    "image_with_text_overlay_XQpcCV"
+  ]
+}

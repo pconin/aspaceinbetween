@@ -1,0 +1,86 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "blog-banner": {
+      "type": "blog-banner",
+      "disabled": true,
+      "name": "foo",
+      "settings": {
+        "color_scheme": "",
+        "allow_transparent_header": true,
+        "title_tag": "h7",
+        "content": ""
+      }
+    },
+    "image_with_text_overlay_CLtaDE": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_KyF4WJ": {
+          "type": "heading",
+          "settings": {
+            "text": "Dispatch",
+            "heading_size": "h1",
+            "html_tag": "p",
+            "indent": "none",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          },
+          "blocks": {}
+        },
+        "rich_text_6PrcqL": {
+          "type": "rich-text",
+          "settings": {
+            "text": "<h6><strong>a space, in between.</strong> — Dispatches from the Atelier.<br/>Step inside the atelier where fabric floats, ideas take shape, and language becomes as carefully tailored as a sleeve. In these dispatches, we share our journeys, discoveries, glimpses into our design process, and stories by our team and their muses.<br/><br/>Our field notes on belonging, respect, and the craft of celebrating every curve.</h6>",
+            "content_width": "lg"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading_KyF4WJ",
+        "rich_text_6PrcqL"
+      ],
+      "name": "t:sections.image_with_text_overlay.name",
+      "settings": {
+        "color_scheme": "",
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "image": "shopify://shop_images/asib.making.of_-119.jpg",
+        "overlay_color": "#000000",
+        "overlay_opacity": 20,
+        "enable_sticky_content": false,
+        "content_width": "md",
+        "desktop_text_position": "sm:place-self-center-start",
+        "mobile_text_position": "place-self-center"
+      }
+    },
+    "main": {
+      "type": "main-blog",
+      "settings": {
+        "color_scheme": "",
+        "show_tags": true,
+        "posts_per_page": 9,
+        "highlight_blog_post_position": 5,
+        "blog_post_card_heading_size": "h5",
+        "show_category": true,
+        "show_date": true,
+        "show_reading_time": false,
+        "show_excerpt": true
+      }
+    }
+  },
+  "order": [
+    "blog-banner",
+    "image_with_text_overlay_CLtaDE",
+    "main"
+  ]
+}

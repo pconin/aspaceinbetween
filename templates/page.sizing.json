@@ -1,0 +1,213 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "content_width": "md"
+      }
+    },
+    "image_with_text_overlay_X4MRPF": {
+      "type": "image-with-text-overlay",
+      "name": "t:sections.image_with_text_overlay.name",
+      "settings": {
+        "color_scheme": "",
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "image": "shopify://shop_images/asib.making.of_-84.jpg",
+        "overlay_color": "#000000",
+        "overlay_opacity": 20,
+        "enable_sticky_content": false,
+        "content_width": "md",
+        "desktop_text_position": "sm:place-self-center",
+        "mobile_text_position": "place-self-center"
+      }
+    },
+    "rich_text_DxcPBy": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_dGKNah": {
+          "type": "heading",
+          "settings": {
+            "text": "Our Fit",
+            "heading_tag": "h1",
+            "indent": "none",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext_GPBX8y": {
+          "type": "richtext",
+          "settings": {
+            "text": "<h5>At <strong>a space, in between.</strong>, every garment begins with the body in mind. We fit our patterns on <strong>Alvanon’s custom American US W20 women’s plus-size form</strong>, then apply our in-house <strong>biomechanics expertise</strong> to grade and refine each size—ensuring the same comfort, drape, and elegance from <strong>1X through 6X</strong>.</h5><h5><strong>Our goal</strong>: that moment when you put on your garment and <strong>feel</strong> <strong>instant joy</strong>, <strong>freedom</strong>, and <strong>confidence</strong>.</h5>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dGKNah",
+        "richtext_GPBX8y"
+      ],
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "content_width": "md",
+        "text_alignment": "center"
+      }
+    },
+    "rich_text_WwTFPn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_BtWFhm": {
+          "type": "heading",
+          "settings": {
+            "text": "How to Measure",
+            "heading_tag": "h1",
+            "indent": "none",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext_LyDhBi": {
+          "type": "richtext",
+          "settings": {
+            "text": "<h4><strong>Chest</strong></h4><h5>Measure around the fullest part of your chest, keeping the tape level.</h5><h4><strong>Waist</strong></h4><h5>Measure around the body between the top of the pelvis and the bottom of the ribcage.</h5><h4><strong>Hip</strong></h4><h5>Measure around the fullest part of your hips, keeping the tape parallel to the floor.</h5>"
+          }
+        },
+        "page_9GwNEt": {
+          "type": "page",
+          "settings": {
+            "page": "fit-chart"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BtWFhm",
+        "richtext_LyDhBi",
+        "page_9GwNEt"
+      ],
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "content_width": "md",
+        "text_alignment": "center"
+      }
+    },
+    "rich_text_UPXK77": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_dhGrNW": {
+          "type": "heading",
+          "settings": {
+            "text": "Fit Philosophy",
+            "heading_tag": "h1",
+            "indent": "none",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext_iGJcUX": {
+          "type": "richtext",
+          "settings": {
+            "text": "<h4><strong>Consistent Excellence</strong></h4><h5>Every size is fit-tested on the Alvanon US W20 base form, then graded with our biomechanics-informed system for a harmonious fit across the range.</h5><h4><strong>Ease Where You Need It</strong></h4><h5>Many styles are designed with built-in ease for drape, movement, and layering.</h5><h4><strong>Proportion Perfection</strong></h4><h5>Strategic seam placement, fabric weight, and drape are adjusted per size to maintain silhouette integrity.</h5>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dhGrNW",
+        "richtext_iGJcUX"
+      ],
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "content_width": "md",
+        "text_alignment": "center"
+      }
+    },
+    "rich_text_8Q7xyH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_JkPJPP": {
+          "type": "heading",
+          "settings": {
+            "text": "Omotenashi Service",
+            "heading_tag": "h1",
+            "indent": "none",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext_mXG3tW": {
+          "type": "richtext",
+          "settings": {
+            "text": "<h5>Our Omotenashi Service for <strong>customers ordering 5X and 6X</strong>, we <strong>offer an exceptional, personal fit consultation</strong> before we move to cut and sew.</h5><h5>After purchase, <strong>we’ll arrange a private appointment </strong>— online (<em>worldwide JST hours</em>), or in person (<em>Tokyo Atelier, only</em>) — to confirm your measurements and preferences, <strong>ensuring your garment is crafted to your unique proportions</strong>.</h5>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_JkPJPP",
+        "richtext_mXG3tW"
+      ],
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "content_width": "md",
+        "text_alignment": "center"
+      }
+    },
+    "rich_text_bEgHED": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Qa96kE": {
+          "type": "heading",
+          "settings": {
+            "text": "Sizing Questions?",
+            "heading_tag": "h1",
+            "indent": "none",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext_qUxPC6": {
+          "type": "richtext",
+          "settings": {
+            "text": "<h4><a href=\"/pages/contact\" title=\"Contact Us\"><strong>Contact Us </strong></a></h4><h5>We’re here to guide you to your perfect fit before we begin production.<br/></h5>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Qa96kE",
+        "richtext_qUxPC6"
+      ],
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "content_width": "md",
+        "text_alignment": "center"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_X4MRPF",
+    "rich_text_DxcPBy",
+    "rich_text_WwTFPn",
+    "rich_text_UPXK77",
+    "rich_text_8Q7xyH",
+    "rich_text_bEgHED"
+  ]
+}

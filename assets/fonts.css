@@ -1,0 +1,1222 @@
+/* ======================================================================
+   📘 Shopify Fonts – Developer Manual
+   This manual explains how to use each font-family included via @font-face.
+   All fonts are declared in 'shopify_fonts_normalized.css'.
+   ====================================================================== */
+
+/* HOW TO USE A FONT:
+
+   Use the following CSS properties to apply fonts:
+
+   Example:
+   body {
+     font-family: 'Inter';
+     font-weight: 400;
+     font-style: normal;
+   }
+
+   You can also target specific elements:
+
+   h1 {
+     font-family: 'Recife';
+     font-weight: 600;
+     font-style: italic;
+   }
+
+   The font-family names are standardized,
+   and styles are controlled via 'font-weight' and 'font-style'.
+
+
+   font-family: 'Inter';
+font-weight: 100–900;
+font-style: normal | italic;
+
+font-family: 'Recife';
+font-weight: 200, 300, 400, 500, 600, 700, 900;
+font-style: normal | italic;
+
+font-family: 'Manrope';
+font-weight: 200–800;
+font-style: normal;
+
+font-family: 'NotoSansJP';
+font-weight: 100–900;
+font-style: normal;
+
+font-family: 'PPEditorialNew';
+font-weight: 100–900;
+font-style: normal;
+
+font-family: 'SubtilGrotesk';
+font-weight: 100–800;
+font-style: normal | italic;
+*/
+
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_28pt-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_28pt-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_24pt-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_28pt-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_24pt-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_24pt-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_24pt-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_24pt-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_24pt-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_18pt-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_18pt-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_18pt-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_18pt-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_18pt-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recife';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/RecifeDisplay-VF-Upright.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recife';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/RecifeDisplay-VF-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recife';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/RecifeDisplay-SemiBoldItalic.otf') format('opentype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recife';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/RecifeDisplay-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recife';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/RecifeDisplay-LightItalic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recife';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/RecifeDisplay-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recife';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/RecifeDisplay-RegularItalic.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recife';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/RecifeDisplay-BlackItalic.otf') format('opentype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recife';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/RecifeDisplay-BookItalic.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recife';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/RecifeDisplay-SemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recife';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/RecifeDisplay-Book.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recife';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/RecifeDisplay-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recife';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/RecifeDisplay-MediumItalic.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recife';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/RecifeDisplay-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recife';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/RecifeDisplay-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recife';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/RecifeDisplay-BoldItalic.otf') format('opentype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Manrope-VariableFont_wght.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Manrope-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Manrope-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Manrope-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Manrope-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Manrope-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Manrope-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Manrope-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter-Italic-VariableFont_opsz_wght.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter-VariableFont_opsz_wght.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_28pt-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_24pt-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_28pt-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_28pt-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_28pt-Italic.ttf') format('truetype');
+  font-weight: italic;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_28pt-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_28pt-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_18pt-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_28pt-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_28pt-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_28pt-ExtraLightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_28pt-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_24pt-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_28pt-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_24pt-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_28pt-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_28pt-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_24pt-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_24pt-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_18pt-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_24pt-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_24pt-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_24pt-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_24pt-Italic.ttf') format('truetype');
+  font-weight: italic;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_24pt-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_24pt-ExtraLightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_18pt-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_18pt-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_24pt-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_18pt-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_18pt-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_18pt-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_18pt-ExtraLightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_18pt-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_18pt-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_18pt-Italic.ttf') format('truetype');
+  font-weight: italic;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_18pt-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_18pt-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_28pt-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/Inter_28pt-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NotoSansJP';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/NotoSansJP-VariableFont_wght.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NotoSansJP';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/NotoSansJP-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NotoSansJP';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/NotoSansJP-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NotoSansJP';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/NotoSansJP-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NotoSansJP';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/NotoSansJP-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NotoSansJP';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/NotoSansJP-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NotoSansJP';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/NotoSansJP-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NotoSansJP';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/NotoSansJP-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NotoSansJP';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/NotoSansJP-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NotoSansJP';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/NotoSansJP-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PPEditorialNew';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/PPEditorialNew-Italic.ttf') format('truetype');
+  font-weight: italic;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PPEditorialNew';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/PPEditorialNew-Italic.otf') format('opentype');
+  font-weight: italic;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PPEditorialNew';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/PPEditorialNew-Italic.woff2') format('woff2');
+  font-weight: italic;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PPEditorialNew';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/PPEditorialNew-Italic.woff') format('woff');
+  font-weight: italic;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PPEditorialNew';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/PPEditorialNew-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PPEditorialNew';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/PPEditorialNew-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PPEditorialNew';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/PPEditorialNew-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PPEditorialNew';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/PPEditorialNew-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SubtilGrotesk';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/SubtilGroteskTT-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SubtilGrotesk';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/SubtilGroteskTT-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SubtilGrotesk';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/SubtilGroteskTT-BlondItalic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SubtilGrotesk';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/SubtilGroteskTT-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SubtilGrotesk';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/SubtilGroteskTT-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SubtilGrotesk';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/SubtilGroteskTT-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SubtilGrotesk';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/SubtilGroteskTT-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SubtilGrotesk';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/SubtilGroteskTT-NormalItalic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SubtilGrotesk';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/SubtilGroteskTT-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SubtilGrotesk';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/SubtilGroteskTT-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SubtilGrotesk';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/SubtilGroteskTT-Normal.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SubtilGrotesk';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/SubtilGroteskTT-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SubtilGrotesk';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/SubtilGroteskTT-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SubtilGrotesk';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/SubtilGroteskTT-Blond.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SubtilGrotesk';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/SubtilGroteskTT-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SubtilGrotesk';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/SubtilGroteskTT-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SubtilGrotesk';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/SubtilGrotesk-ExtraBold.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SubtilGrotesk';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/SubtilGrotesk-SemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SubtilGrotesk';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/SubtilGrotesk-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SubtilGrotesk';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/SubtilGrotesk-SemiBoldItalic.otf') format('opentype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SubtilGrotesk';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/SubtilGrotesk-Blond.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SubtilGrotesk';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/SubtilGrotesk-BlondItalic.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SubtilGrotesk';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/SubtilGrotesk-MediumItalic.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SubtilGrotesk';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/SubtilGrotesk-BoldItalic.otf') format('opentype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SubtilGrotesk';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/SubtilGrotesk-ThinItalic.otf') format('opentype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SubtilGrotesk';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/SubtilGrotesk-Thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SubtilGrotesk';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/SubtilGrotesk-NormalItalic.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SubtilGrotesk';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/SubtilGrotesk-ExtraBoldItalic.otf') format('opentype');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SubtilGrotesk';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/SubtilGrotesk-LightItalic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SubtilGrotesk';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/SubtilGrotesk-Normal.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SubtilGrotesk';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/SubtilGrotesk-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SubtilGrotesk';
+  src: url('https://cdn.shopify.com/s/files/1/0681/0117/7391/files/SubtilGrotesk-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ======================================================================
+   🧩 Utility font classes – generated mappings
+   Usage example: <div class="recife-300-italic">Your text</div>
+   Note: Only font-family uses !important, as requested.
+   ====================================================================== */
+
+/* Inter: weights 100–900, normal & italic */
+.inter-100-normal, .inter-100-normal p, .inter-100-normal span { font-family: 'Inter' !important; font-weight: 100; font-style: normal; }
+.inter-100-italic, .inter-100-italic p, .inter-100-italic span { font-family: 'Inter' !important; font-weight: 100; font-style: italic; }
+.inter-200-normal, .inter-200-normal p, .inter-200-normal span { font-family: 'Inter' !important; font-weight: 200; font-style: normal; }
+.inter-200-italic, .inter-200-italic p, .inter-200-italic span { font-family: 'Inter' !important; font-weight: 200; font-style: italic; }
+.inter-300-normal, .inter-300-normal p, .inter-300-normal span { font-family: 'Inter' !important; font-weight: 300; font-style: normal; }
+.inter-300-italic, .inter-300-italic p, .inter-300-italic span { font-family: 'Inter' !important; font-weight: 300; font-style: italic; }
+.inter-400-normal, .inter-400-normal p, .inter-400-normal span { font-family: 'Inter' !important; font-weight: 400; font-style: normal; }
+.inter-400-italic, .inter-400-italic p, .inter-400-italic span { font-family: 'Inter' !important; font-weight: 400; font-style: italic; }
+.inter-500-normal, .inter-500-normal p, .inter-500-normal span { font-family: 'Inter' !important; font-weight: 500; font-style: normal; }
+.inter-500-italic, .inter-500-italic p, .inter-500-italic span { font-family: 'Inter' !important; font-weight: 500; font-style: italic; }
+.inter-600-normal, .inter-600-normal p, .inter-600-normal span { font-family: 'Inter' !important; font-weight: 600; font-style: normal; }
+.inter-600-italic, .inter-600-italic p, .inter-600-italic span { font-family: 'Inter' !important; font-weight: 600; font-style: italic; }
+.inter-700-normal, .inter-700-normal p, .inter-700-normal span { font-family: 'Inter' !important; font-weight: 700; font-style: normal; }
+.inter-700-italic, .inter-700-italic p, .inter-700-italic span { font-family: 'Inter' !important; font-weight: 700; font-style: italic; }
+.inter-800-normal, .inter-800-normal p, .inter-800-normal span { font-family: 'Inter' !important; font-weight: 800; font-style: normal; }
+.inter-800-italic, .inter-800-italic p, .inter-800-italic span { font-family: 'Inter' !important; font-weight: 800; font-style: italic; }
+.inter-900-normal, .inter-900-normal p, .inter-900-normal span { font-family: 'Inter' !important; font-weight: 900; font-style: normal; }
+.inter-900-italic, .inter-900-italic p, .inter-900-italic span { font-family: 'Inter' !important; font-weight: 900; font-style: italic; }
+
+/* Recife: weights 100–900 (with fallbacks), normal & italic */
+.recife-100-normal, .recife-100-normal p, .recife-100-normal span { font-family: 'Recife' !important; font-weight: 200; font-style: normal; }
+.recife-100-italic, .recife-100-italic p, .recife-100-italic span { font-family: 'Recife' !important; font-weight: 200; font-style: italic; }
+.recife-200-normal, .recife-200-normal p, .recife-200-normal span { font-family: 'Recife' !important; font-weight: 200; font-style: normal; }
+.recife-200-italic, .recife-200-italic p, .recife-200-italic span { font-family: 'Recife' !important; font-weight: 200; font-style: italic; }
+.recife-300-normal, .recife-300-normal p, .recife-300-normal span { font-family: 'Recife' !important; font-weight: 300; font-style: normal; }
+.recife-300-italic, .recife-300-italic p, .recife-300-italic span { font-family: 'Recife' !important; font-weight: 300; font-style: italic; }
+.recife-400-normal, .recife-400-normal p, .recife-400-normal span { font-family: 'Recife' !important; font-weight: 400; font-style: normal; }
+.recife-400-italic, .recife-400-italic p, .recife-400-italic span { font-family: 'Recife' !important; font-weight: 400; font-style: italic; }
+.recife-500-normal, .recife-500-normal p, .recife-500-normal span { font-family: 'Recife' !important; font-weight: 500; font-style: normal; }
+.recife-500-italic, .recife-500-italic p, .recife-500-italic span { font-family: 'Recife' !important; font-weight: 500; font-style: italic; }
+.recife-600-normal, .recife-600-normal p, .recife-600-normal span { font-family: 'Recife' !important; font-weight: 600; font-style: normal; }
+.recife-600-italic, .recife-600-italic p, .recife-600-italic span { font-family: 'Recife' !important; font-weight: 600; font-style: italic; }
+.recife-700-normal, .recife-700-normal p, .recife-700-normal span { font-family: 'Recife' !important; font-weight: 700; font-style: normal; }
+.recife-700-italic, .recife-700-italic p, .recife-700-italic span { font-family: 'Recife' !important; font-weight: 700; font-style: italic; }
+.recife-800-normal, .recife-800-normal p, .recife-800-normal span { font-family: 'Recife' !important; font-weight: 700; font-style: normal; }
+.recife-800-italic, .recife-800-italic p, .recife-800-italic span { font-family: 'Recife' !important; font-weight: 700; font-style: italic; }
+.recife-900-normal, .recife-900-normal p, .recife-900-normal span { font-family: 'Recife' !important; font-weight: 900; font-style: normal; }
+.recife-900-italic, .recife-900-italic p, .recife-900-italic span { font-family: 'Recife' !important; font-weight: 900; font-style: italic; }
+
+/* Manrope: weights 100–900 (with fallbacks); italic → normal */
+.manrope-100-normal, .manrope-100-normal p, .manrope-100-normal span { font-family: 'Manrope' !important; font-weight: 200; font-style: normal; }
+.manrope-100-italic, .manrope-100-italic p, .manrope-100-italic span { font-family: 'Manrope' !important; font-weight: 200; font-style: normal; }
+.manrope-200-normal, .manrope-200-normal p, .manrope-200-normal span { font-family: 'Manrope' !important; font-weight: 200; font-style: normal; }
+.manrope-200-italic, .manrope-200-italic p, .manrope-200-italic span { font-family: 'Manrope' !important; font-weight: 200; font-style: normal; }
+.manrope-300-normal, .manrope-300-normal p, .manrope-300-normal span { font-family: 'Manrope' !important; font-weight: 300; font-style: normal; }
+.manrope-300-italic, .manrope-300-italic p, .manrope-300-italic span { font-family: 'Manrope' !important; font-weight: 300; font-style: normal; }
+.manrope-400-normal, .manrope-400-normal p, .manrope-400-normal span { font-family: 'Manrope' !important; font-weight: 400; font-style: normal; }
+.manrope-400-italic, .manrope-400-italic p, .manrope-400-italic span { font-family: 'Manrope' !important; font-weight: 400; font-style: normal; }
+.manrope-500-normal, .manrope-500-normal p, .manrope-500-normal span { font-family: 'Manrope' !important; font-weight: 500; font-style: normal; }
+.manrope-500-italic, .manrope-500-italic p, .manrope-500-italic span { font-family: 'Manrope' !important; font-weight: 500; font-style: normal; }
+.manrope-600-normal, .manrope-600-normal p, .manrope-600-normal span { font-family: 'Manrope' !important; font-weight: 600; font-style: normal; }
+.manrope-600-italic, .manrope-600-italic p, .manrope-600-italic span { font-family: 'Manrope' !important; font-weight: 600; font-style: normal; }
+.manrope-700-normal, .manrope-700-normal p, .manrope-700-normal span { font-family: 'Manrope' !important; font-weight: 700; font-style: normal; }
+.manrope-700-italic, .manrope-700-italic p, .manrope-700-italic span { font-family: 'Manrope' !important; font-weight: 700; font-style: normal; }
+.manrope-800-normal, .manrope-800-normal p, .manrope-800-normal span { font-family: 'Manrope' !important; font-weight: 800; font-style: normal; }
+.manrope-800-italic, .manrope-800-italic p, .manrope-800-italic span { font-family: 'Manrope' !important; font-weight: 800; font-style: normal; }
+.manrope-900-normal, .manrope-900-normal p, .manrope-900-normal span { font-family: 'Manrope' !important; font-weight: 800; font-style: normal; }
+.manrope-900-italic, .manrope-900-italic p, .manrope-900-italic span { font-family: 'Manrope' !important; font-weight: 800; font-style: normal; }
+
+/* NotoSansJP: weights 100–900; italic → normal */
+.notosansjp-100-normal, .notosansjp-100-normal p, .notosansjp-100-normal span { font-family: 'NotoSansJP' !important; font-weight: 100; font-style: normal; }
+.notosansjp-100-italic, .notosansjp-100-italic p, .notosansjp-100-italic span { font-family: 'NotoSansJP' !important; font-weight: 100; font-style: normal; }
+.notosansjp-200-normal, .notosansjp-200-normal p, .notosansjp-200-normal span { font-family: 'NotoSansJP' !important; font-weight: 200; font-style: normal; }
+.notosansjp-200-italic, .notosansjp-200-italic p, .notosansjp-200-italic span { font-family: 'NotoSansJP' !important; font-weight: 200; font-style: normal; }
+.notosansjp-300-normal, .notosansjp-300-normal p, .notosansjp-300-normal span { font-family: 'NotoSansJP' !important; font-weight: 300; font-style: normal; }
+.notosansjp-300-italic, .notosansjp-300-italic p, .notosansjp-300-italic span { font-family: 'NotoSansJP' !important; font-weight: 300; font-style: normal; }
+.notosansjp-400-normal, .notosansjp-400-normal p, .notosansjp-400-normal span { font-family: 'NotoSansJP' !important; font-weight: 400; font-style: normal; }
+.notosansjp-400-italic, .notosansjp-400-italic p, .notosansjp-400-italic span { font-family: 'NotoSansJP' !important; font-weight: 400; font-style: normal; }
+.notosansjp-500-normal, .notosansjp-500-normal p, .notosansjp-500-normal span { font-family: 'NotoSansJP' !important; font-weight: 500; font-style: normal; }
+.notosansjp-500-italic, .notosansjp-500-italic p, .notosansjp-500-italic span { font-family: 'NotoSansJP' !important; font-weight: 500; font-style: normal; }
+.notosansjp-600-normal, .notosansjp-600-normal p, .notosansjp-600-normal span { font-family: 'NotoSansJP' !important; font-weight: 600; font-style: normal; }
+.notosansjp-600-italic, .notosansjp-600-italic p, .notosansjp-600-italic span { font-family: 'NotoSansJP' !important; font-weight: 600; font-style: normal; }
+.notosansjp-700-normal, .notosansjp-700-normal p, .notosansjp-700-normal span { font-family: 'NotoSansJP' !important; font-weight: 700; font-style: normal; }
+.notosansjp-700-italic, .notosansjp-700-italic p, .notosansjp-700-italic span { font-family: 'NotoSansJP' !important; font-weight: 700; font-style: normal; }
+.notosansjp-800-normal, .notosansjp-800-normal p, .notosansjp-800-normal span { font-family: 'NotoSansJP' !important; font-weight: 800; font-style: normal; }
+.notosansjp-800-italic, .notosansjp-800-italic p, .notosansjp-800-italic span { font-family: 'NotoSansJP' !important; font-weight: 800; font-style: normal; }
+.notosansjp-900-normal, .notosansjp-900-normal p, .notosansjp-900-normal span { font-family: 'NotoSansJP' !important; font-weight: 900; font-style: normal; }
+.notosansjp-900-italic, .notosansjp-900-italic p, .notosansjp-900-italic span { font-family: 'NotoSansJP' !important; font-weight: 900; font-style: normal; }
+
+/* PPEditorialNew: weights 100–900 map to 400; preserve style */
+.ppeditorialnew-100-normal, .ppeditorialnew-100-normal p, .ppeditorialnew-100-normal span { font-family: 'PPEditorialNew' !important; font-weight: 400; font-style: normal; }
+.ppeditorialnew-200-normal, .ppeditorialnew-200-normal p, .ppeditorialnew-200-normal span { font-family: 'PPEditorialNew' !important; font-weight: 400; font-style: normal; }
+.ppeditorialnew-300-normal, .ppeditorialnew-300-normal p, .ppeditorialnew-300-normal span { font-family: 'PPEditorialNew' !important; font-weight: 400; font-style: normal; }
+.ppeditorialnew-400-normal, .ppeditorialnew-400-normal p, .ppeditorialnew-400-normal span { font-family: 'PPEditorialNew' !important; font-weight: 400; font-style: normal; }
+.ppeditorialnew-500-normal, .ppeditorialnew-500-normal p, .ppeditorialnew-500-normal span { font-family: 'PPEditorialNew' !important; font-weight: 400; font-style: normal; }
+.ppeditorialnew-600-normal, .ppeditorialnew-600-normal p, .ppeditorialnew-600-normal span { font-family: 'PPEditorialNew' !important; font-weight: 400; font-style: normal; }
+.ppeditorialnew-700-normal, .ppeditorialnew-700-normal p, .ppeditorialnew-700-normal span { font-family: 'PPEditorialNew' !important; font-weight: 400; font-style: normal; }
+.ppeditorialnew-800-normal, .ppeditorialnew-800-normal p, .ppeditorialnew-800-normal span { font-family: 'PPEditorialNew' !important; font-weight: 400; font-style: normal; }
+.ppeditorialnew-900-normal, .ppeditorialnew-900-normal p, .ppeditorialnew-900-normal span { font-family: 'PPEditorialNew' !important; font-weight: 400; font-style: normal; }
+.ppeditorialnew-100-italic, .ppeditorialnew-100-italic p, .ppeditorialnew-100-italic span { font-family: 'PPEditorialNew' !important; font-weight: 400; font-style: italic; }
+.ppeditorialnew-200-italic, .ppeditorialnew-200-italic p, .ppeditorialnew-200-italic span { font-family: 'PPEditorialNew' !important; font-weight: 400; font-style: italic; }
+.ppeditorialnew-300-italic, .ppeditorialnew-300-italic p, .ppeditorialnew-300-italic span { font-family: 'PPEditorialNew' !important; font-weight: 400; font-style: italic; }
+.ppeditorialnew-400-italic, .ppeditorialnew-400-italic p, .ppeditorialnew-400-italic span { font-family: 'PPEditorialNew' !important; font-weight: 400; font-style: italic; }
+.ppeditorialnew-500-italic, .ppeditorialnew-500-italic p, .ppeditorialnew-500-italic span { font-family: 'PPEditorialNew' !important; font-weight: 400; font-style: italic; }
+.ppeditorialnew-600-italic, .ppeditorialnew-600-italic p, .ppeditorialnew-600-italic span { font-family: 'PPEditorialNew' !important; font-weight: 400; font-style: italic; }
+.ppeditorialnew-700-italic, .ppeditorialnew-700-italic p, .ppeditorialnew-700-italic span { font-family: 'PPEditorialNew' !important; font-weight: 400; font-style: italic; }
+.ppeditorialnew-800-italic, .ppeditorialnew-800-italic p, .ppeditorialnew-800-italic span { font-family: 'PPEditorialNew' !important; font-weight: 400; font-style: italic; }
+.ppeditorialnew-900-italic, .ppeditorialnew-900-italic p, .ppeditorialnew-900-italic span { font-family: 'PPEditorialNew' !important; font-weight: 400; font-style: italic; }
+
+/* SubtilGrotesk: weights 100–900 (with fallbacks), normal & italic */
+.subtilgrotesk-100-normal, .subtilgrotesk-100-normal p, .subtilgrotesk-100-normal span { font-family: 'SubtilGrotesk' !important; font-weight: 100; font-style: normal; }
+.subtilgrotesk-100-italic, .subtilgrotesk-100-italic p, .subtilgrotesk-100-italic span { font-family: 'SubtilGrotesk' !important; font-weight: 100; font-style: italic; }
+.subtilgrotesk-200-normal, .subtilgrotesk-200-normal p, .subtilgrotesk-200-normal span { font-family: 'SubtilGrotesk' !important; font-weight: 300; font-style: normal; }
+.subtilgrotesk-200-italic, .subtilgrotesk-200-italic p, .subtilgrotesk-200-italic span { font-family: 'SubtilGrotesk' !important; font-weight: 300; font-style: italic; }
+.subtilgrotesk-300-normal, .subtilgrotesk-300-normal p, .subtilgrotesk-300-normal span { font-family: 'SubtilGrotesk' !important; font-weight: 300; font-style: normal; }
+.subtilgrotesk-300-italic, .subtilgrotesk-300-italic p, .subtilgrotesk-300-italic span { font-family: 'SubtilGrotesk' !important; font-weight: 300; font-style: italic; }
+.subtilgrotesk-400-normal, .subtilgrotesk-400-normal p, .subtilgrotesk-400-normal span { font-family: 'SubtilGrotesk' !important; font-weight: 400; font-style: normal; }
+.subtilgrotesk-400-italic, .subtilgrotesk-400-italic p, .subtilgrotesk-400-italic span { font-family: 'SubtilGrotesk' !important; font-weight: 400; font-style: italic; }
+.subtilgrotesk-500-normal, .subtilgrotesk-500-normal p, .subtilgrotesk-500-normal span { font-family: 'SubtilGrotesk' !important; font-weight: 500; font-style: normal; }
+.subtilgrotesk-500-italic, .subtilgrotesk-500-italic p, .subtilgrotesk-500-italic span { font-family: 'SubtilGrotesk' !important; font-weight: 500; font-style: italic; }
+.subtilgrotesk-600-normal, .subtilgrotesk-600-normal p, .subtilgrotesk-600-normal span { font-family: 'SubtilGrotesk' !important; font-weight: 600; font-style: normal; }
+.subtilgrotesk-600-italic, .subtilgrotesk-600-italic p, .subtilgrotesk-600-italic span { font-family: 'SubtilGrotesk' !important; font-weight: 600; font-style: italic; }
+.subtilgrotesk-700-normal, .subtilgrotesk-700-normal p, .subtilgrotesk-700-normal span { font-family: 'SubtilGrotesk' !important; font-weight: 700; font-style: normal; }
+.subtilgrotesk-700-italic, .subtilgrotesk-700-italic p, .subtilgrotesk-700-italic span { font-family: 'SubtilGrotesk' !important; font-weight: 700; font-style: italic; }
+.subtilgrotesk-800-normal, .subtilgrotesk-800-normal p, .subtilgrotesk-800-normal span { font-family: 'SubtilGrotesk' !important; font-weight: 800; font-style: normal; }
+.subtilgrotesk-800-italic, .subtilgrotesk-800-italic p, .subtilgrotesk-800-italic span { font-family: 'SubtilGrotesk' !important; font-weight: 800; font-style: italic; }
+.subtilgrotesk-900-normal, .subtilgrotesk-900-normal p, .subtilgrotesk-900-normal span { font-family: 'SubtilGrotesk' !important; font-weight: 800; font-style: normal; }
+.subtilgrotesk-900-italic, .subtilgrotesk-900-italic p, .subtilgrotesk-900-italic span { font-family: 'SubtilGrotesk' !important; font-weight: 800; font-style: italic; }
+
+/* Removed separate fallback section; merged under each family for clarity */

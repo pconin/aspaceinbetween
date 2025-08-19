@@ -1,0 +1,239 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "content_width": "md"
+      }
+    },
+    "image_with_text_overlay_Jj3APU": {
+      "type": "image-with-text-overlay",
+      "name": "t:sections.image_with_text_overlay.name",
+      "settings": {
+        "color_scheme": "",
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "image": "shopify://shop_images/asib.making.of_-75.jpg",
+        "overlay_color": "#ffffff",
+        "overlay_opacity": 0,
+        "enable_sticky_content": false,
+        "content_width": "md",
+        "desktop_text_position": "sm:place-self-center",
+        "mobile_text_position": "place-self-center"
+      }
+    },
+    "rich_text_AAwPFA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6kEcMd": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>Made to Order</strong>",
+            "heading_tag": "h2",
+            "indent": "none",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext_3bAdMB": {
+          "type": "richtext",
+          "settings": {
+            "text": "<h6>Estimated Shipping for <strong>Fall / Winter, November — December 2025</strong></h6><h6>At <strong>a space, in between.</strong>, every garment is crafted with intention—slowly, carefully, and in small batches. We open orders in <strong>2–3 month windows</strong>, then close the window to begin cut-and-sew production. Your piece will ship approximately <strong>2–3 months after the order window closes</strong>. This time allows us to custom-weave many of our fabrics, cut precisely, and finish with the care each garment deserves.</h6><h6>You can follow your order’s journey through our <a href=\"/pages/production-status\" title=\"Production Status\"><strong>Production Status</strong></a> page on our site. We ship worldwide via <strong>FedEx Priority</strong>, and domestically here at home in Japan via <strong>Sagawa Express</strong>.</h6><h6>Because each garment is made exclusively for you, we are unable to accept returns. To help you order with confidence, we offer optional <strong>online measuring sessions</strong> by contacting us at the link below, and detailed sizing guides. Many of our designs are generously cut to drape with ease—please check our <a href=\"/pages/sizing\" title=\"Sizing\"><strong>Fit Chart</strong></a> for guidance.</h6><h6><strong>Questions?</strong> Contact us anytime: <a href=\"/pages/contact\" title=\"Contact Us\"><strong>Contact Us</strong></a>.</h6>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6kEcMd",
+        "richtext_3bAdMB"
+      ],
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "content_width": "md",
+        "text_alignment": "center"
+      }
+    },
+    "video_3fVcME": {
+      "type": "video",
+      "blocks": {
+        "play_button_yzPJeX": {
+          "type": "play_button",
+          "disabled": true,
+          "settings": {
+            "position": "middle_center",
+            "show_play_cursor": false
+          }
+        }
+      },
+      "block_order": [
+        "play_button_yzPJeX"
+      ],
+      "name": "t:sections.video.name",
+      "settings": {
+        "color_scheme": "",
+        "allow_transparent_header": true,
+        "autoplay": true,
+        "show_controls": false,
+        "video_size": "auto",
+        "mobile_video_size": "auto",
+        "video": "shopify://files/videos/542442153541108135.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
+      }
+    },
+    "rich_text_captJA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_NNcNix": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>Example Production Timeline</strong>",
+            "heading_tag": "h3",
+            "indent": "none",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext_CNBr7T": {
+          "type": "richtext",
+          "settings": {
+            "text": "<h5>November — December Delivery</h5><h6><strong>October /</strong> Fabric shipment arrives.<br/><span style=\"text-decoration:underline\"><em>Limited quantities available</em></span>—<em><strong>order early</strong></em> to secure your color & style.</h6><h6><strong>November /</strong> Cutting & Sewing.</h6><h6><strong>November - December /</strong> Final sewing & FedEx Priority and Sagawa Express shipping.</h6>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NNcNix",
+        "richtext_CNBr7T"
+      ],
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "content_width": "md",
+        "text_alignment": "center"
+      }
+    },
+    "video_9FY6Mz": {
+      "type": "video",
+      "blocks": {
+        "play_button_3FkmLi": {
+          "type": "play_button",
+          "disabled": true,
+          "settings": {
+            "position": "middle_center",
+            "show_play_cursor": false
+          }
+        }
+      },
+      "block_order": [
+        "play_button_3FkmLi"
+      ],
+      "name": "t:sections.video.name",
+      "settings": {
+        "color_scheme": "",
+        "allow_transparent_header": true,
+        "autoplay": true,
+        "show_controls": false,
+        "video_size": "auto",
+        "mobile_video_size": "auto",
+        "video": "shopify://files/videos/IMG_9024.MOV",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
+      }
+    },
+    "rich_text_h6D9cm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wrgQfT": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>Why We Work This Way</strong>",
+            "heading_tag": "h2",
+            "indent": "none",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext_MNxaMi": {
+          "type": "richtext",
+          "settings": {
+            "text": "<h6>We produce in <strong>small, intentional batches</strong> to reduce waste, ensure the highest quality, and honor the heritage craftspersonship of our Japanese production partners. Your patience supports slow fashion and helps us lessen our environmental footprint.<br/><br/>By ordering early, you not only secure your preferred color and style, but also help us align our <strong>material purchasing calendar</strong>—ensuring no excess stock, no unnecessary waste, and a garment made exactly for you.</h6>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wrgQfT",
+        "richtext_MNxaMi"
+      ],
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "content_width": "md",
+        "text_alignment": "center"
+      }
+    },
+    "image_with_text_overlay_wrKBif": {
+      "type": "image-with-text-overlay",
+      "name": "t:sections.image_with_text_overlay.name",
+      "settings": {
+        "color_scheme": "",
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "image": "shopify://shop_images/asib.making.of_-102.jpg",
+        "overlay_color": "#ffffff",
+        "overlay_opacity": 0,
+        "enable_sticky_content": false,
+        "content_width": "md",
+        "desktop_text_position": "sm:place-self-center",
+        "mobile_text_position": "place-self-center"
+      }
+    },
+    "countdown_TK8KiT": {
+      "type": "countdown",
+      "name": "t:sections.countdown_timer.name",
+      "settings": {
+        "color_scheme": "",
+        "image_position": "split",
+        "image_size": "md",
+        "add_image_spacing": false,
+        "subheading": "",
+        "title": "<a href=\"/collections/frontpage\" title=\"Fall / Winter\">Pre-ordering</a> <strong>ENDS</strong> soon.",
+        "heading_tag": "h1",
+        "content": "<p>Designed with love, for Fall / Winter in mind.</p>",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "solid",
+        "expiration_date": "2025-09-30 24:00",
+        "expiration_behavior": "leave",
+        "timer_size": "h1",
+        "show_timer_borders": true,
+        "animate_timer_numbers": true,
+        "caption_text": "",
+        "caption_scrolling": false,
+        "caption_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_Jj3APU",
+    "rich_text_AAwPFA",
+    "video_3fVcME",
+    "rich_text_captJA",
+    "video_9FY6Mz",
+    "rich_text_h6D9cm",
+    "image_with_text_overlay_wrKBif",
+    "countdown_TK8KiT"
+  ]
+}

@@ -1,0 +1,764 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "content_width": "md"
+      }
+    },
+    "dynamic_grid_HFFEWC": {
+      "type": "dynamic-grid",
+      "blocks": {
+        "dynamic_grid_item_wRKhWX": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 2,
+            "desktop_column_start": 5,
+            "desktop_column_end": 15,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 4,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "dynamic_grid_heading_VAfJ9M": {
+              "type": "_dynamic-grid-heading",
+              "settings": {
+                "text": "We are <strong>dedicated to crafting with love and warmth from Japan</strong>, ensuring that <strong>every piece we create embodies our values </strong>and<strong> aspirations for a better, more inclusive future</strong>.",
+                "show_text_vertically": false,
+                "font_size_desktop": 4,
+                "font_size_mobile": 7,
+                "font_size_line_height": 1,
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "none",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_VAfJ9M"
+          ]
+        },
+        "dynamic_grid_item_8CCNcY": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "center",
+            "desktop_row_start": 6,
+            "desktop_column_start": 6,
+            "desktop_column_end": 12,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 9,
+            "mobile_column_start": 1,
+            "mobile_column_end": 6,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "rich_text_gThWrk": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p>Meticulously crafted, celebrating every curve, inspiring a new wave of innovation in our industry.</p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "rich_text_gThWrk"
+          ]
+        },
+        "dynamic_grid_item_cnqVwm": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 1,
+            "desktop_column_start": 3,
+            "desktop_column_end": 4,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 1,
+            "mobile_column_start": 1,
+            "mobile_column_end": 2,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {}
+        },
+        "dynamic_grid_item_8rJt86": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 1,
+            "desktop_column_start": 15,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 1,
+            "mobile_column_start": 6,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_7J3bre": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify://shop_images/asib.making.of_-49.jpg",
+                "caption": "",
+                "max_width": 100,
+                "mobile_max_width": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_7J3bre"
+          ]
+        },
+        "dynamic_grid_item_nKAigx": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 3,
+            "desktop_column_start": 1,
+            "desktop_column_end": 3,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 12,
+            "mobile_column_start": 1,
+            "mobile_column_end": 3,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_PgXpbF": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify://shop_images/asib.making.of_-47.jpg",
+                "caption": "",
+                "max_width": 100,
+                "mobile_max_width": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_PgXpbF"
+          ]
+        },
+        "dynamic_grid_item_CPNhkR": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 3,
+            "desktop_column_start": 12,
+            "desktop_column_end": 14,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 8,
+            "mobile_column_start": 6,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "dynamic_grid_item_wRKhWX",
+        "dynamic_grid_item_8CCNcY",
+        "dynamic_grid_item_cnqVwm",
+        "dynamic_grid_item_8rJt86",
+        "dynamic_grid_item_nKAigx",
+        "dynamic_grid_item_CPNhkR"
+      ],
+      "name": "t:sections.dynamic_grid.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "allow_transparent_header": true,
+        "show_background_image_parallax": false,
+        "background_video": "shopify://files/videos/work_in_progress.mov",
+        "add_vertical_spacing": true,
+        "add_horizontal_spacing": true,
+        "gap": 16,
+        "mobile_gap": 10,
+        "overlay_color": "#000000",
+        "overlay_opacity": 20
+      }
+    },
+    "rich_text_p9jMd6": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_NjBVGH": {
+          "type": "heading",
+          "settings": {
+            "text": "Vision",
+            "heading_tag": "h1",
+            "indent": "none",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext_K3Nh9Q": {
+          "type": "richtext",
+          "settings": {
+            "text": "<h5>At a space, in between. - <strong>we envision a world</strong> where fashion is <strong>inclusive</strong>, <strong>sustainable</strong>, and <strong>transformative</strong>.</h5><h5>We aim to <strong>lead the industry</strong> in <strong>redefining plus-size</strong> fashion by offering garments that <strong>seamlessly blend innovation</strong>, <strong>comfort</strong>, <strong>timelessness</strong>, and <strong>modernity</strong>, design-forward, <strong>elegance</strong>. By <strong>celebrating Japanese heritage craftspersonship</strong>, the application of <strong>biomechanics</strong>, and the <strong>commitment to circular design</strong> with <strong>sustainable materials</strong>, we strive to set <strong>new standards in slow fashion</strong>.</h5><h5>Our vision is to <strong>empower individuals</strong> of plus sizes to <strong>feel confident</strong> and <strong>inspired</strong>, creating a <strong>lasting impact</strong> on the fashion landscape. We are <strong>dedicated to crafting with love and warmth from Japan</strong>, ensuring that <strong>every piece we create embodies our values and aspirations for a better, more inclusive future</strong>.</h5>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NjBVGH",
+        "richtext_K3Nh9Q"
+      ],
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "content_width": "md",
+        "text_alignment": "center"
+      }
+    },
+    "rich_text_Xi8pL4": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ADF7c9": {
+          "type": "heading",
+          "settings": {
+            "text": "Atelier Team",
+            "heading_tag": "h1",
+            "indent": "none",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext_kUCRtA": {
+          "type": "richtext",
+          "settings": {
+            "text": "<h6>Atelier craftspeople are — Ana Arriola-Kanada, Dr. Leila Kelleher, Takayuki Tanaka, Motoyuki Matsumoto, Sarah Kerkhoven, Masaki Tomita, Miyuki Kanada, Megumi Kanada, with Camellia Bollino Doyle.</h6>"
+          }
+        },
+        "subheading_q7ahpk": {
+          "type": "subheading",
+          "settings": {
+            "text": "In partnership with..."
+          }
+        },
+        "image_GJtqJM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/yes_divka_dark_c2121cac-f583-4f59-95f5-05630c1d37c9.png",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "heading_ADF7c9",
+        "richtext_kUCRtA",
+        "subheading_q7ahpk",
+        "image_GJtqJM"
+      ],
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "content_width": "md",
+        "text_alignment": "center"
+      }
+    },
+    "slideshow_ktGzMH": {
+      "type": "slideshow",
+      "blocks": {
+        "slideshow_image_slide_b8LTrG": {
+          "type": "_slideshow-image-slide",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/asib.Hero.Shots-02_c1a17173-6cfe-4dde-8972-25150cc024b1.jpg",
+            "slide_link": "",
+            "content_max_width": 1000,
+            "mobile_content_position": "place-self-end-center",
+            "desktop_content_position": "sm:place-self-end-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          },
+          "blocks": {
+            "heading_MfVnYd": {
+              "type": "heading",
+              "settings": {
+                "text": "",
+                "heading_size": "h1",
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_MfVnYd"
+          ]
+        },
+        "slideshow_image_slide_7CTr8z": {
+          "type": "_slideshow-image-slide",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/IMG_9708.heic",
+            "slide_link": "",
+            "content_max_width": 1000,
+            "mobile_content_position": "place-self-end-center",
+            "desktop_content_position": "sm:place-self-end-center",
+            "overlay_color": "#ffffff",
+            "overlay_opacity": 0
+          },
+          "blocks": {
+            "heading_daFeUK": {
+              "type": "heading",
+              "settings": {
+                "text": "Ana",
+                "heading_size": "h1",
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_daFeUK"
+          ]
+        },
+        "slideshow_image_slide_4YLM4k": {
+          "type": "_slideshow-image-slide",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/edit-2392.jpg",
+            "slide_link": "",
+            "content_max_width": 1000,
+            "mobile_content_position": "place-self-end-center",
+            "desktop_content_position": "sm:place-self-end-center",
+            "overlay_color": "#ffffff",
+            "overlay_opacity": 0
+          },
+          "blocks": {
+            "heading_LP9D3L": {
+              "type": "heading",
+              "settings": {
+                "text": "Leila",
+                "heading_size": "h1",
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_LP9D3L"
+          ]
+        },
+        "slideshow_image_slide_4iM9Gz": {
+          "type": "_slideshow-image-slide",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/taka_moto.png",
+            "slide_link": "",
+            "content_max_width": 1000,
+            "mobile_content_position": "place-self-end-center",
+            "desktop_content_position": "sm:place-self-end-center",
+            "overlay_color": "#ffffff",
+            "overlay_opacity": 0
+          },
+          "blocks": {
+            "heading_L7RChC": {
+              "type": "heading",
+              "settings": {
+                "text": "Taka & Moto",
+                "heading_size": "h1",
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_L7RChC"
+          ]
+        },
+        "slideshow_image_slide_nrMPUE": {
+          "type": "_slideshow-image-slide",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/WhatsApp_Image_2025-01-15_at_19.22.44_1_-59889_f0056e7a-dbcf-4f68-9327-7e5f0ae2cb98.jpg",
+            "slide_link": "",
+            "content_max_width": 1000,
+            "mobile_content_position": "place-self-end-center",
+            "desktop_content_position": "sm:place-self-end-center",
+            "overlay_color": "#ffffff",
+            "overlay_opacity": 0
+          },
+          "blocks": {
+            "heading_y9fjjK": {
+              "type": "heading",
+              "settings": {
+                "text": "Sarah",
+                "heading_size": "h1",
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_y9fjjK"
+          ]
+        },
+        "slideshow_image_slide_wYHQjC": {
+          "type": "_slideshow-image-slide",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/pasted-movie-58248.png",
+            "slide_link": "",
+            "content_max_width": 1000,
+            "mobile_content_position": "place-self-end-center",
+            "desktop_content_position": "sm:place-self-end-center",
+            "overlay_color": "#ffffff",
+            "overlay_opacity": 0
+          },
+          "blocks": {
+            "heading_ACGDJa": {
+              "type": "heading",
+              "settings": {
+                "text": "Masaki",
+                "heading_size": "h1",
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_ACGDJa"
+          ]
+        },
+        "slideshow_image_slide_TQAHbD": {
+          "type": "_slideshow-image-slide",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/megumi_6d70a0a2-2444-4528-8413-c5b17518d7f8.png",
+            "slide_link": "",
+            "content_max_width": 1000,
+            "mobile_content_position": "place-self-end-center",
+            "desktop_content_position": "sm:place-self-end-center",
+            "overlay_color": "#ffffff",
+            "overlay_opacity": 0
+          },
+          "blocks": {
+            "heading_qcU6kc": {
+              "type": "heading",
+              "settings": {
+                "text": "Megumi",
+                "heading_size": "h1",
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_qcU6kc"
+          ]
+        },
+        "slideshow_image_slide_N8JFDr": {
+          "type": "_slideshow-image-slide",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/miyuki_8cf8678e-e07b-457d-b33e-4763a1d85cdd.heic",
+            "slide_link": "",
+            "content_max_width": 1000,
+            "mobile_content_position": "place-self-end-center",
+            "desktop_content_position": "sm:place-self-end-center",
+            "overlay_color": "#ffffff",
+            "overlay_opacity": 0
+          },
+          "blocks": {
+            "heading_LKFtYr": {
+              "type": "heading",
+              "settings": {
+                "text": "Miyuki",
+                "heading_size": "h1",
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_LKFtYr"
+          ]
+        },
+        "slideshow-controls": {
+          "type": "_slideshow-controls",
+          "static": true,
+          "settings": {
+            "controls_style": "line",
+            "controls_color": "#ffffff"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "slideshow_image_slide_b8LTrG",
+        "slideshow_image_slide_7CTr8z",
+        "slideshow_image_slide_4YLM4k",
+        "slideshow_image_slide_4iM9Gz",
+        "slideshow_image_slide_nrMPUE",
+        "slideshow_image_slide_wYHQjC",
+        "slideshow_image_slide_TQAHbD",
+        "slideshow_image_slide_N8JFDr"
+      ],
+      "disabled": true,
+      "name": "t:sections.slideshow.name",
+      "settings": {
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "transition_type": "curtain",
+        "autoplay": true,
+        "pause_auto_rotate_on_hover": false,
+        "cycle_speed": 6,
+        "background": "#ffffff"
+      }
+    },
+    "timeline_HrpAx9": {
+      "type": "timeline",
+      "blocks": {
+        "item_QxkcxX": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/OG_divka.jpg",
+            "label": "<strong>2015</strong>",
+            "subheading": "",
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/ASIB-Primary-DeepBlue-Companion-Mark.svg",
+            "icon_width": 32,
+            "mobile_icon_width": 24,
+            "title": "<strong>The Journey</strong>",
+            "heading_tag": "h3",
+            "highlight_effect": "default",
+            "content": "<h6>Back in 2015, <a href=\"https://www.instagram.com/arriolakanada\" target=\"_blank\" title=\"https://www.instagram.com/arriolakanada\"><strong>Ana</strong></a> was first introduced to <a href=\"https://www.instagram.com/divkanet\" target=\"_blank\" title=\"https://www.instagram.com/divkanet\"><strong>Taka</strong></a>-san, <a href=\"https://www.instagram.com/motoyukimats/\" target=\"_blank\" title=\"https://www.instagram.com/motoyukimats/\"><strong>Moto</strong></a>-san, and <a href=\"https://www.instagram.com/masaki_tomita/\" target=\"_blank\" title=\"https://www.instagram.com/masaki_tomita/\"><strong>Masaki</strong></a>-san through a dear friend and creative confidant, Mogi-san—a design visionary at Sony Design, and a guiding force in <a href=\"https://www.sony.com/ja/SonyInfo/design/\" target=\"_blank\" title=\"https://www.sony.com/ja/SonyInfo/design/\">Tokyo’s Creative Center</a>.</h6><h6>That moment sparked <strong>an extraordinary journey, not unlike when Zelda received her first wooden sword</strong>—simple on the surface, but the beginning of something mythic.</h6><h6>Together, they ventured into uncharted territory, blending art, innovation, and purpose, forging a path that would one day become — <strong>a space, in between.</strong></h6>"
+          }
+        },
+        "item_KyfGbw": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/meta.jpg",
+            "label": "<strong>2016 – 2024</strong>",
+            "subheading": "",
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/ASIB-Primary-DeepBlue-Companion-Mark.svg",
+            "icon_width": 32,
+            "mobile_icon_width": 24,
+            "title": "<strong>Side Quest</strong>",
+            "heading_tag": "h3",
+            "highlight_effect": "default",
+            "content": "<h6>From 2016 to 2024, Ana moved through the world foraging for creative covering, garments that not only fit her plus-size body but also reflected her dignity, and desire to belong.</h6><h6>Working within the hallowed halls of Meta AI, she carried this personal mission, initiating conversations, working on projects for YSL at Paris Fashion Week, and research trips back home to Japan, with iconic houses like YSL and Issey Miyake.</h6><h6>YSL and Issey's responses were rejections. A disheartening echo that so many in our fat community know too well. We don’t ask to shrink. We ask to be seen.</h6><h6>In 2024, over a kaiseki private team lunch at Yamazato, located within the historic Okura Hotel Tokyo, Ana shared the simple idea: let’s democratize my private bespoke collection of clothing created in partnership with the team at divka. They listened. And the next quest quietly, powerfully, began in a joint partnership between「 <a href=\"https://divka.net/\" target=\"_blank\" title=\"https://divka.net/\"><strong>divka</strong></a> 」and「 <a href=\"https://www.yesand.design/\" target=\"_blank\" title=\"https://www.yesand.design/\"><strong>yes,</strong></a> 」</h6>"
+          }
+        },
+        "item_H4kDfV": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/asib.making.of_-73.jpg",
+            "label": "<strong>2024</strong>",
+            "subheading": "",
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/ASIB-Primary-DeepBlue-Companion-Mark.svg",
+            "icon_width": 32,
+            "mobile_icon_width": 24,
+            "title": "<strong>Our Development</strong>",
+            "heading_tag": "h3",
+            "highlight_effect": "default",
+            "content": "<h6>As Ana, divka, and the core team began shaping the vision for a space, in between., our next step was clear, this couldn’t just be beautiful clothing. It had to move with the body. Support it. Celebrate it.</h6><h6>To bring that dream to life, Ana sought out <a href=\"https://www.instagram.com/leila_sews/\" target=\"_blank\" title=\"https://www.instagram.com/leila_sews/\"><strong>Dr. Leila Kelleher</strong></a><strong>,</strong> a biomechanist, professor, and designer whose <a href=\"https://www.bloomsbury.com/uk/plussize-patternmaking-for-womenswear-9781350360174/\" target=\"_blank\" title=\"https://www.bloomsbury.com/uk/plussize-patternmaking-for-womenswear-9781350360174/\">groundbreaking work in fat body biomechanics</a> resonated like a call across the void. Their connection was fateful, minds aligned not just in theory but in deep care and conviction. </h6><h6>Together now in co-creation and partnership, they launched into months of distributed and remote research, fit analysis, workshops, and design sprints, mapping the real needs of plus-size bodies in motion.</h6><h6>By Winter 2024, development and manufacturing were underway in Japan, drawing on heritage sewing houses who have been influential since the 1930s in deep historical collaboration with the “maisons de couture”, craftspeople of innovative fabrics, and the quiet genius of the divka atelier.</h6><h6>Our Fall/Winter 2025–26 collection was born not just from design, but from deep listening, a collection built for warmth, form, and liberation.</h6>"
+          }
+        },
+        "item_eLTVyB": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/asib.making.of_-57.jpg",
+            "label": "<strong>2025</strong>",
+            "subheading": "",
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/ASIB-Primary-DeepBlue-Companion-Mark.svg",
+            "icon_width": 32,
+            "mobile_icon_width": 24,
+            "title": "<strong>The Edit</strong>",
+            "heading_tag": "h3",
+            "highlight_effect": "default",
+            "content": "<h6><strong>a space, in between. —</strong> emerged not in a single stroke, but through a series of quiet revolutions, born from late-night sketches and conversations, ten years worn and tested, sometimes discarded prototypes, and lengthy discussions about dignity, movement, and beauty.</h6><h6>It’s a journey stitched together with biomechanical wisdom, old-school CAD grit met with CLO modernity, mixed with Japanese heritage craftswomanship, and radical inclusivity, where every fabric chosen, every curve considered, carried a story of care.</h6><h6>From the earliest concept to our Fall/Winter collection, we have never strayed from our mission: to reshape fashion not just for bodies, but for belonging.</h6><h6>“a space, in between.” began as a series of questions...</h6><h6><em>“What if we democratized and made available our closed bespoke collection?”</em></h6><h6><em>“What if fashion met everyone where they are?”</em></h6><h6>These have become our living answers, one garment at a time, with one season at a time.</h6>"
+          }
+        }
+      },
+      "block_order": [
+        "item_QxkcxX",
+        "item_KyfGbw",
+        "item_H4kDfV",
+        "item_eLTVyB"
+      ],
+      "name": "t:sections.timeline.name",
+      "settings": {
+        "color_scheme": "",
+        "timeline_position": "left",
+        "image_position": "left",
+        "text_alignment": "center",
+        "add_image_spacing": false
+      }
+    },
+    "rich_text_C3hB9c": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_r7mN4i": {
+          "type": "heading",
+          "settings": {
+            "text": "Joy",
+            "heading_tag": "h1",
+            "indent": "none",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext_7UrjGG": {
+          "type": "richtext",
+          "settings": {
+            "text": "<h5><a href=\"/pages/contact\" title=\"Contact Us\">Please reach out</a> and <strong>share your thoughts </strong>with us. <strong>What do y'all want to see us create next</strong> as we design for Fall / Winter — Cold Weather, and Spring / Summer — Warm & Humid weather environments?</h5><h5>These seasons are all occurring at once, somewhere on our beautiful blue planet.</h5>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_r7mN4i",
+        "richtext_7UrjGG"
+      ],
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "content_width": "md",
+        "text_alignment": "center"
+      }
+    },
+    "press_AkGP9t": {
+      "type": "press",
+      "blocks": {
+        "item_DmPpQd": {
+          "type": "item",
+          "settings": {
+            "logo_width": 80,
+            "author": "via <a href=\"https://www.instagram.com/asib.design\" target=\"_blank\" title=\"https://www.instagram.com/asib.design\">Instagram</a>",
+            "content": "<em>This is mindblowingly cool!</em>"
+          }
+        },
+        "item_RCDLL4": {
+          "type": "item",
+          "settings": {
+            "logo_width": 80,
+            "author": "via <a href=\"https://www.instagram.com/asib.design\" target=\"_blank\" title=\"https://www.instagram.com/asib.design\">Instagram</a>",
+            "content": "<em>Beautiful textures and pieces!</em>"
+          }
+        },
+        "item_HwtnLj": {
+          "type": "item",
+          "settings": {
+            "logo_width": 80,
+            "author": "via <a href=\"https://www.instagram.com/asib.design\" target=\"_blank\" title=\"https://www.instagram.com/asib.design\">Instagram</a>",
+            "content": "<em>Really looks great, love the fabric and print</em> ❤️"
+          }
+        }
+      },
+      "block_order": [
+        "item_DmPpQd",
+        "item_RCDLL4",
+        "item_HwtnLj"
+      ],
+      "name": "t:sections.press.name",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "background_image": "shopify://shop_images/asib.making.of_-83.jpg",
+        "title": "",
+        "use_arrows_navigation": false,
+        "show_quotation_mark": true,
+        "quotation_tag": "h3",
+        "item_style": "avatar",
+        "autoplay": true,
+        "cycle_speed": 6,
+        "overlay_color": "#000000",
+        "overlay_opacity": 20
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dynamic_grid_HFFEWC",
+    "rich_text_p9jMd6",
+    "rich_text_Xi8pL4",
+    "slideshow_ktGzMH",
+    "timeline_HrpAx9",
+    "rich_text_C3hB9c",
+    "press_AkGP9t"
+  ]
+}

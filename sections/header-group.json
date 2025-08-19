@@ -1,0 +1,69 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "countdown_condensed_rQRbi6": {
+      "type": "countdown-condensed",
+      "settings": {
+        "color_scheme": "scheme-7",
+        "heading": "<strong>Pre-ordering</strong> is <strong>NOW OPEN</strong> and <strong>ENDS IN</strong>",
+        "layout": "center",
+        "expiration_date": "2025-09-30 24:00",
+        "expiration_behavior": "leave",
+        "show_inline_timer": true,
+        "button_text": "",
+        "button_url": "",
+        "button_style": "solid",
+        "connect_button_with_heading": false
+      }
+    },
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "settings": {
+        "color_scheme": "",
+        "enable_sticky": true,
+        "autoplay": true,
+        "cycle_speed": 5
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "color_scheme": "",
+        "enable_sticky": true,
+        "hide_on_scroll": true,
+        "mobile_layout": "logo_with_menu_left_navigation_right",
+        "desktop_layout": "drawer",
+        "logo": "shopify://shop_images/ASIB-Primary-Wordmark-Horizontal-REGULAR.svg",
+        "logo_max_width": 300,
+        "logo_mobile_max_width": 200,
+        "menu": "minimal-menu",
+        "drawer_menu": "",
+        "secondary_menu": "sub-menu",
+        "desktop_dropdown_menu_style": "sidebar",
+        "menu_open_trigger": "click",
+        "desktop_icon_size": 16,
+        "drawer_show_nested_menu_indicator": false,
+        "show_country_selector": false,
+        "show_country_name": false,
+        "show_country_flag": true,
+        "show_locale_selector": false,
+        "transparent_header_text_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "countdown_condensed_rQRbi6",
+    "announcement-bar",
+    "header"
+  ]
+}

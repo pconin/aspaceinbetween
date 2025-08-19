@@ -1,0 +1,369 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_rwmxqG": {
+      "type": "slideshow",
+      "blocks": {
+        "slideshow_image_slide_BNxYiF": {
+          "type": "_slideshow-image-slide",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/asib.Hero.Shots-62.jpg",
+            "mobile_image": "shopify://shop_images/asib.Hero.Shots-46.jpg",
+            "slide_link": "",
+            "content_max_width": 1000,
+            "mobile_content_position": "place-self-center",
+            "desktop_content_position": "sm:place-self-center",
+            "overlay_color": "#ffffff",
+            "overlay_opacity": 0
+          },
+          "blocks": {
+            "heading_7thVDT": {
+              "type": "heading",
+              "settings": {
+                "text": "",
+                "heading_size": "display-m",
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_7thVDT"
+          ]
+        },
+        "slideshow_image_slide_8na3jf": {
+          "type": "_slideshow-image-slide",
+          "name": "t:sections.slideshow.blocks.image.name",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/asib.Hero.Shots-123.jpg",
+            "mobile_image": "shopify://shop_images/asib.Hero.Shots-86.jpg",
+            "slide_link": "",
+            "content_max_width": 1000,
+            "mobile_content_position": "place-self-center",
+            "desktop_content_position": "sm:place-self-center",
+            "overlay_color": "#ffffff",
+            "overlay_opacity": 0
+          },
+          "blocks": {
+            "heading_fBCEHt": {
+              "type": "heading",
+              "settings": {
+                "text": "",
+                "heading_size": "h1",
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_fBCEHt"
+          ]
+        },
+        "slideshow_image_slide_tXedBH": {
+          "type": "_slideshow-image-slide",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/asib.Hero.Shots-166.jpg",
+            "mobile_image": "shopify://shop_images/asib.Hero.Shots-70.jpg",
+            "slide_link": "",
+            "content_max_width": 1000,
+            "mobile_content_position": "place-self-center",
+            "desktop_content_position": "sm:place-self-center",
+            "overlay_color": "#ffffff",
+            "overlay_opacity": 0
+          },
+          "blocks": {
+            "heading_BXqHGd": {
+              "type": "heading",
+              "settings": {
+                "text": "",
+                "heading_size": "display-m",
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "marker",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_BXqHGd"
+          ]
+        },
+        "slideshow-controls": {
+          "type": "_slideshow-controls",
+          "static": true,
+          "settings": {
+            "controls_style": "line",
+            "controls_color": "#ffffff"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "slideshow_image_slide_BNxYiF",
+        "slideshow_image_slide_8na3jf",
+        "slideshow_image_slide_tXedBH"
+      ],
+      "settings": {
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "transition_type": "curtain",
+        "autoplay": true,
+        "pause_auto_rotate_on_hover": false,
+        "cycle_speed": 6,
+        "background": "#000000"
+      }
+    },
+    "scrolling_content_c4reHt": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_hB6C8t": {
+          "type": "text",
+          "settings": {
+            "text": "Pre-ordering is <strong>NOW OPEN</strong>",
+            "icon_position": "before_text",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "text_6HCXcd": {
+          "type": "text",
+          "settings": {
+            "text": "Ordering <strong>closes September 30th — </strong><a href=\"/pages/production-status\" title=\"Production Status\">Production starts October 1st</a>.",
+            "icon_position": "before_text",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_hB6C8t",
+        "text_6HCXcd"
+      ],
+      "disabled": true,
+      "name": "t:sections.scrolling_content.name",
+      "settings": {
+        "color_scheme": "",
+        "scrolling_speed": 0.3,
+        "scroll_direction": "start-to-end",
+        "section_rotation": 0,
+        "pause_on_hover": false,
+        "text_font": "heading",
+        "text_font_size_mobile": 10,
+        "text_font_size_desktop": 5,
+        "section_vertical_spacing_mobile": 24,
+        "section_vertical_spacing_desktop": 60,
+        "item_horizontal_spacing_mobile": 40,
+        "item_horizontal_spacing_desktop": 80
+      }
+    },
+    "featured_collections_n3jbNk": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_Lh8hLN": {
+          "type": "collection",
+          "name": "Collection",
+          "settings": {
+            "collection": "frontpage",
+            "products_count": 8,
+            "title": "{{ block.settings.collection.title }}",
+            "content": "{{ block.settings.collection.description }}",
+            "link": "{{ block.settings.collection.url }}"
+          }
+        }
+      },
+      "block_order": [
+        "collection_Lh8hLN"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "stack_products_mobile": true,
+        "stack_products_desktop": true,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "tabs_alignment": "start",
+        "tabs_icon": "none",
+        "show_view_all_button": true,
+        "show_scrolling_bar": true
+      }
+    },
+    "dynamic_grid_JHzkP9": {
+      "type": "dynamic-grid",
+      "blocks": {
+        "dynamic_grid_item_ryFUya": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 2,
+            "desktop_column_start": 5,
+            "desktop_column_end": 15,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 4,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "dynamic_grid_heading_Rr3ahD": {
+              "type": "_dynamic-grid-heading",
+              "settings": {
+                "text": "Our partner heritage sewing houses have been influential since the 1930s.",
+                "show_text_vertically": false,
+                "font_size_desktop": 5,
+                "font_size_mobile": 10,
+                "font_size_line_height": 1,
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_Rr3ahD"
+          ]
+        }
+      },
+      "block_order": [
+        "dynamic_grid_item_ryFUya"
+      ],
+      "name": "t:sections.dynamic_grid.name",
+      "settings": {
+        "color_scheme": "",
+        "allow_transparent_header": true,
+        "show_background_image_parallax": false,
+        "background_video": "shopify://files/videos/factory_making_bias.MOV",
+        "mobile_background_video": "shopify://files/videos/IMG_9024.MOV",
+        "add_vertical_spacing": true,
+        "add_horizontal_spacing": true,
+        "gap": 16,
+        "mobile_gap": 10,
+        "overlay_color": "#000000",
+        "overlay_opacity": 20
+      }
+    },
+    "reading_text_M4WmRp": {
+      "type": "reading-text",
+      "settings": {
+        "color_scheme": "scheme-4",
+        "image": "shopify://shop_images/asib.Hero.Shots-02.jpg",
+        "mobile_image": "shopify://shop_images/asib.Hero.Shots-05.jpg",
+        "subheading": "",
+        "content": "At a space, in between. — we envision  a world where fashion is inclusive, sustainable, and transformative.",
+        "button_text": "",
+        "button_link": "",
+        "heading_tag": "h4",
+        "mobile_text_position": "place-self-center",
+        "desktop_text_position": "sm:place-self-center",
+        "content_width": "full",
+        "reading_speed": "1.5",
+        "separate_button": false,
+        "text_opacity": 20,
+        "overlay_color": "#ffffff",
+        "overlay_opacity": 60
+      }
+    },
+    "reading_text_8BXJTk": {
+      "type": "reading-text",
+      "settings": {
+        "color_scheme": "scheme-4",
+        "image": "shopify://shop_images/asib.making.of_-63.jpg",
+        "mobile_image": "shopify://shop_images/asib.making.of_-64.jpg",
+        "subheading": "",
+        "content": "We aim to lead the industry in redefining plus-size fashion by offering garments  that seamlessly blend innovation, comfort, timelessness, and modernity, design-forward, elegance. By celebrating Japanese heritage craftspersonship, the application of biomechanics, and the commitment to circular design with sustainable materials, we strive to set new standards in slow fashion.",
+        "button_text": "",
+        "button_link": "",
+        "heading_tag": "h3",
+        "mobile_text_position": "place-self-center",
+        "desktop_text_position": "sm:place-self-center",
+        "content_width": "full",
+        "reading_speed": "1.5",
+        "separate_button": false,
+        "text_opacity": 20,
+        "overlay_color": "#ffffff",
+        "overlay_opacity": 60
+      }
+    },
+    "reading_text_cHjcmh": {
+      "type": "reading-text",
+      "settings": {
+        "color_scheme": "scheme-4",
+        "image": "shopify://shop_images/asib.making.of_-75.jpg",
+        "mobile_image": "shopify://shop_images/asib.making.of_-50.jpg",
+        "subheading": "",
+        "content": "Our vision is to empower individuals of plus sizes to feel confident and inspired, creating a lasting impact on the fashion landscape. We are dedicated to crafting with love and warmth from Japan, ensuring that every piece we create embodies our values and aspirations for a better, more inclusive future.",
+        "button_text": "",
+        "button_link": "",
+        "heading_tag": "h3",
+        "mobile_text_position": "place-self-center",
+        "desktop_text_position": "sm:place-self-center",
+        "content_width": "full",
+        "reading_speed": "1.5",
+        "separate_button": false,
+        "text_opacity": 20,
+        "overlay_color": "#ffffff",
+        "overlay_opacity": 60
+      }
+    },
+    "reading_text_CaJehy": {
+      "type": "reading-text",
+      "settings": {
+        "color_scheme": "scheme-4",
+        "image": "shopify://shop_images/asib.making.of_-48.jpg",
+        "mobile_image": "shopify://shop_images/asib.making.of_-68.jpg",
+        "subheading": "",
+        "content": "「 a space, in between. 」is a joint venture between「 yes, 」and「 divka 」created from necessity, desire, and unmet needs. We craft with love and warmth for all.",
+        "button_text": "",
+        "button_link": "",
+        "heading_tag": "h3",
+        "mobile_text_position": "place-self-center",
+        "desktop_text_position": "sm:place-self-center",
+        "content_width": "full",
+        "reading_speed": "1.5",
+        "separate_button": false,
+        "text_opacity": 20,
+        "overlay_color": "#ffffff",
+        "overlay_opacity": 60
+      }
+    }
+  },
+  "order": [
+    "slideshow_rwmxqG",
+    "scrolling_content_c4reHt",
+    "featured_collections_n3jbNk",
+    "dynamic_grid_JHzkP9",
+    "reading_text_M4WmRp",
+    "reading_text_8BXJTk",
+    "reading_text_cHjcmh",
+    "reading_text_CaJehy"
+  ]
+}
