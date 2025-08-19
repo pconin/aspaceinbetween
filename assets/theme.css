@@ -14,6 +14,43 @@ html {
   line-height: 1.5;
 }
 
+/* ----------------------------------------------------------------------
+   TYPOGRAPHY OVERRIDES (Hard-coded)
+   Replaces dynamic settings from `snippets/css-variables.liquid`.
+   To restore original behavior, remove or comment this block.
+
+   Requested mapping:
+   - Body: Manrope Light (300, normal)
+   - Headings: Subtil Grotesk ExtraBold (800, normal)
+   - Subheadings: PP Editorial New Regular (400, normal)
+   - Buttons: Inter Bold (700, normal)
+   ---------------------------------------------------------------------- */
+:root {
+  /* Body text */
+  --text-font-family: 'Manrope', sans-serif;
+  --text-font-weight: 300;
+  --text-font-style: normal;
+  /* Optional helpers used elsewhere */
+  --text-font-medium-weight: 500;
+  --text-font-bold-weight: 700;
+
+  /* Headings */
+  --heading-font-family: 'SubtilGrotesk', sans-serif;
+  --heading-font-weight: 800;
+  --heading-font-style: normal;
+  /* Keep italic override consistent with main heading family */
+  --heading-italic-font-family: 'SubtilGrotesk', sans-serif;
+  --heading-italic-font-weight: 800;
+
+  /* Subheadings */
+  --subheading-font-family: 'PPEditorialNew', serif;
+  --subheading-font-weight: 400;
+  --subheading-font-style: normal;
+
+  /* Buttons (full font shorthand used by the theme) */
+  --button-font: normal 700 var(--button-font-size) / normal 'Inter', sans-serif;
+}
+
 body {
   background: rgb(var(--page-background));
   font: var(--text-font-style) var(--text-font-weight) var(--text-base) / var(--text-line-height) var(--text-font-family);
