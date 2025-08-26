@@ -228,61 +228,6 @@
         "content_width": "md",
         "text_alignment": "center"
       }
-    },
-    "trust_icons_wfKXPV": {
-      "type": "trust-icons",
-      "blocks": {
-        "item_XFDRWa": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-package",
-            "icon_width": 24,
-            "mobile_icon_width": 20,
-            "title": "Worldwide Delivery",
-            "content": "Receive your order anywhere in the world."
-          }
-        },
-        "item_m6mt7r": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-express-delivery",
-            "icon_width": 24,
-            "mobile_icon_width": 20,
-            "title": "Fast Shipping",
-            "content": "Super fast shipping in 48 hours."
-          }
-        },
-        "item_EbLajh": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-heart",
-            "icon_width": 24,
-            "mobile_icon_width": 20,
-            "title": "Customer Service",
-            "content": "We are available from Monday to Friday JST to answer your questions."
-          }
-        },
-        "item_nGakCW": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-secure",
-            "icon_width": 24,
-            "mobile_icon_width": 20,
-            "title": "Secure Payment",
-            "content": "Your payment information is processed securely."
-          }
-        }
-      },
-      "block_order": [
-        "item_XFDRWa",
-        "item_m6mt7r",
-        "item_EbLajh",
-        "item_nGakCW"
-      ],
-      "settings": {
-        "color_scheme": "scheme-1",
-        "item_heading_style": "subheading"
-      }
     }
   },
   "order": [
@@ -293,7 +238,6 @@
     "rich_text_4mxHqg",
     "rich_text_pPedri",
     "rich_text_XRdP8A",
-    "rich_text_iJMDMQ",
-    "trust_icons_wfKXPV"
+    "rich_text_iJMDMQ"
   ]
 }

@@ -36,14 +36,14 @@ html {
 
   /* Headings */
   --heading-font-family: 'SubtilGrotesk', sans-serif;
-  --heading-font-weight: 800;
+  --heading-font-weight: 600;
   --heading-font-style: normal;
   /* Keep italic override consistent with main heading family */
   --heading-italic-font-family: 'SubtilGrotesk', sans-serif;
   --heading-italic-font-weight: 800;
 
   /* Subheadings */
-  --subheading-font-family: 'PPEditorialNew', serif;
+  --subheading-font-family: 'Inter', serif;
   --subheading-font-weight: 400;
   --subheading-font-style: normal;
 

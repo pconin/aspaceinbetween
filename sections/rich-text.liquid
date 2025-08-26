@@ -20,38 +20,30 @@
           {%- capture block_content -%}
             {%- case block.type -%}
               {%- when 'subheading' -%}
-                {%- assign font_class = block.settings.font_family | downcase | replace: ' ', '' | replace: '_', '' | append: '-' | append: block.settings.font_weight | append: '-' | append: block.settings.font_style -%}
-                <div {% if block.settings.font_family != '' %}class="{{ font_class }}"{% endif %} {{ block.shopify_attributes }}>
-                  {%- render 'subheading', content: block.settings.text, block: block -%}
-                </div>
+                {%- render 'subheading', content: block.settings.text, block: block -%}
 
               {%- when 'heading' -%}
-                {%- assign font_class = block.settings.font_family | downcase | replace: ' ', '' | replace: '_', '' | append: '-' | append: block.settings.font_weight | append: '-' | append: block.settings.font_style -%}
-                <div {% if block.settings.font_family != '' %}class="{{ font_class }}"{% endif %} {{ block.shopify_attributes }}>
-                  {%- render 'heading', 
-                    content: block.settings.text, 
-                    highlight_effect: block.settings.highlight_effect, 
-                    highlight_accent_color: block.settings.highlight_accent_color, 
-                    highlight_text_color: block.settings.highlight_text_color, 
-                    style: block.settings.heading_tag,
-                    indent: block.settings.indent,
-                    balance_text: true,
-                    block: block 
-                  -%}
-                </div>
+                {%- render 'heading', 
+                  content: block.settings.text, 
+                  highlight_effect: block.settings.highlight_effect, 
+                  highlight_accent_color: block.settings.highlight_accent_color, 
+                  highlight_text_color: block.settings.highlight_text_color, 
+                  style: block.settings.heading_tag,
+                  indent: block.settings.indent,
+                  balance_text: true,
+                  block: block 
+                -%}
 
               {%- when 'richtext' -%}
                 {%- if block.settings.text != blank -%}
-                  {%- assign font_class = block.settings.font_family | downcase | replace: ' ', '' | replace: '_', '' | append: '-' | append: block.settings.font_weight | append: '-' | append: block.settings.font_style -%}
-                  <div {% if block.settings.font_family != '' %}class="{{ font_class }}"{% endif %} {{ block.shopify_attributes }}>
+                  <div {{ block.shopify_attributes }}>
                     {{- block.settings.text -}}
                   </div>
                 {%- endif -%}
 
               {%- when 'page' -%}
                 {%- if block.settings.page.content != blank -%}
-                  {%- assign font_class = block.settings.font_family | downcase | replace: ' ', '' | replace: '_', '' | append: '-' | append: block.settings.font_weight | append: '-' | append: block.settings.font_style -%}
-                  <div {% if block.settings.font_family != '' %}class="{{ font_class }}"{% endif %} {{ block.shopify_attributes }}>
+                  <div {{ block.shopify_attributes }}>
                     {{- block.settings.page.content -}}
                   </div>
                 {%- endif -%}
@@ -196,48 +188,6 @@
           "id": "text",
           "label": "t:global.text.text",
           "default": "Subheading"
-        },
-        {
-          "type": "select",
-          "id": "font_family",
-          "label": "Font family",
-          "options": [
-            { "value": "", "label": "Neutral (inherit)" },
-            { "value": "Inter", "label": "Inter" },
-            { "value": "Recife", "label": "Recife" },
-            { "value": "Manrope", "label": "Manrope" },
-            { "value": "NotoSansJP", "label": "NotoSansJP" },
-            { "value": "PPEditorialNew", "label": "PPEditorialNew" },
-            { "value": "SubtilGrotesk", "label": "SubtilGrotesk" }
-          ],
-          "default": ""
-        },
-        {
-          "type": "select",
-          "id": "font_weight",
-          "label": "Font weight",
-          "options": [
-            { "value": "100", "label": "100" },
-            { "value": "200", "label": "200" },
-            { "value": "300", "label": "300" },
-            { "value": "400", "label": "400" },
-            { "value": "500", "label": "500" },
-            { "value": "600", "label": "600" },
-            { "value": "700", "label": "700" },
-            { "value": "800", "label": "800" },
-            { "value": "900", "label": "900" }
-          ],
-          "default": "400"
-        },
-        {
-          "type": "select",
-          "id": "font_style",
-          "label": "Font style",
-          "options": [
-            { "value": "normal", "label": "normal" },
-            { "value": "italic", "label": "italic" }
-          ],
-          "default": "normal"
         }
       ]
     },
@@ -250,48 +200,6 @@
           "id": "text",
           "label": "t:global.text.text",
           "default": "Heading"
-        },
-        {
-          "type": "select",
-          "id": "font_family",
-          "label": "Font family",
-          "options": [
-            { "value": "", "label": "Neutral (inherit)" },
-            { "value": "Inter", "label": "Inter" },
-            { "value": "Recife", "label": "Recife" },
-            { "value": "Manrope", "label": "Manrope" },
-            { "value": "NotoSansJP", "label": "NotoSansJP" },
-            { "value": "PPEditorialNew", "label": "PPEditorialNew" },
-            { "value": "SubtilGrotesk", "label": "SubtilGrotesk" }
-          ],
-          "default": ""
-        },
-        {
-          "type": "select",
-          "id": "font_weight",
-          "label": "Font weight",
-          "options": [
-            { "value": "100", "label": "100" },
-            { "value": "200", "label": "200" },
-            { "value": "300", "label": "300" },
-            { "value": "400", "label": "400" },
-            { "value": "500", "label": "500" },
-            { "value": "600", "label": "600" },
-            { "value": "700", "label": "700" },
-            { "value": "800", "label": "800" },
-            { "value": "900", "label": "900" }
-          ],
-          "default": "400"
-        },
-        {
-          "type": "select",
-          "id": "font_style",
-          "label": "Font style",
-          "options": [
-            { "value": "normal", "label": "normal" },
-            { "value": "italic", "label": "italic" }
-          ],
-          "default": "normal"
         },
         {
           "type": "select",
@@ -439,48 +347,6 @@
           "id": "text",
           "label": "t:global.text.content",
           "default": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-        },
-        {
-          "type": "select",
-          "id": "font_family",
-          "label": "Font family",
-          "options": [
-            { "value": "", "label": "Neutral (inherit)" },
-            { "value": "Inter", "label": "Inter" },
-            { "value": "Recife", "label": "Recife" },
-            { "value": "Manrope", "label": "Manrope" },
-            { "value": "NotoSansJP", "label": "NotoSansJP" },
-            { "value": "PPEditorialNew", "label": "PPEditorialNew" },
-            { "value": "SubtilGrotesk", "label": "SubtilGrotesk" }
-          ],
-          "default": ""
-        },
-        {
-          "type": "select",
-          "id": "font_weight",
-          "label": "Font weight",
-          "options": [
-            { "value": "100", "label": "100" },
-            { "value": "200", "label": "200" },
-            { "value": "300", "label": "300" },
-            { "value": "400", "label": "400" },
-            { "value": "500", "label": "500" },
-            { "value": "600", "label": "600" },
-            { "value": "700", "label": "700" },
-            { "value": "800", "label": "800" },
-            { "value": "900", "label": "900" }
-          ],
-          "default": "400"
-        },
-        {
-          "type": "select",
-          "id": "font_style",
-          "label": "Font style",
-          "options": [
-            { "value": "normal", "label": "normal" },
-            { "value": "italic", "label": "italic" }
-          ],
-          "default": "normal"
         }
       ]
     },
@@ -492,48 +358,6 @@
           "type": "page",
           "id": "page",
           "label": "t:sections.rich_text.blocks.page.page"
-        },
-        {
-          "type": "select",
-          "id": "font_family",
-          "label": "Font family",
-          "options": [
-            { "value": "", "label": "Neutral" },
-            { "value": "Inter", "label": "Inter" },
-            { "value": "Recife", "label": "Recife" },
-            { "value": "Manrope", "label": "Manrope" },
-            { "value": "NotoSansJP", "label": "NotoSansJP" },
-            { "value": "PPEditorialNew", "label": "PPEditorialNew" },
-            { "value": "SubtilGrotesk", "label": "SubtilGrotesk" }
-          ],
-          "default": ""
-        },
-        {
-          "type": "select",
-          "id": "font_weight",
-          "label": "Font weight",
-          "options": [
-            { "value": "100", "label": "100" },
-            { "value": "200", "label": "200" },
-            { "value": "300", "label": "300" },
-            { "value": "400", "label": "400" },
-            { "value": "500", "label": "500" },
-            { "value": "600", "label": "600" },
-            { "value": "700", "label": "700" },
-            { "value": "800", "label": "800" },
-            { "value": "900", "label": "900" }
-          ],
-          "default": "400"
-        },
-        {
-          "type": "select",
-          "id": "font_style",
-          "label": "Font style",
-          "options": [
-            { "value": "normal", "label": "normal" },
-            { "value": "italic", "label": "italic" }
-          ],
-          "default": "normal"
         }
       ]
     },

@@ -1220,3 +1220,7 @@ font-style: normal | italic;
 .subtilgrotesk-900-italic, .subtilgrotesk-900-italic p, .subtilgrotesk-900-italic span { font-family: 'SubtilGrotesk' !important; font-weight: 800; font-style: italic; }
 
 /* Removed separate fallback section; merged under each family for clarity */
+
+.rich-text .heading, .rich-text .display-xl, .rich-text .display-l, .rich-text .display-m, .rich-text .h1, .rich-text .h2, .rich-text .h3, .rich-text .h4, .rich-text .h5, .rich-text .h6, .rich-text .h7, .rich-text .prose :where(h1, h2, h3, h4, h5, h6) {
+  font-weight:400;
+}
